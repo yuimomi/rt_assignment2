@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'exercise1 = py_exercises.exercise1:main',
         ],
     },
 )
